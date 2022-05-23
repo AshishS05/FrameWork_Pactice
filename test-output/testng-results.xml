@@ -2,16 +2,16 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-09T09:25:42 IST" name="FrameWork_Practice" finished-at="2022-05-09T09:25:53 IST" duration-ms="10674">
+  <suite started-at="2022-05-23T21:29:52 IST" name="FrameWork_Practice" finished-at="2022-05-23T21:30:02 IST" duration-ms="9790">
     <groups>
     </groups>
-    <test started-at="2022-05-09T09:25:42 IST" name="Regression" finished-at="2022-05-09T09:25:53 IST" duration-ms="10674">
+    <test started-at="2022-05-23T21:29:52 IST" name="Regression" finished-at="2022-05-23T21:30:02 IST" duration-ms="9790">
       <class name="com.frameWork_Practice.Test.TC_001">
-        <test-method is-config="true" signature="reportInitilize()[pri:0, instance:com.frameWork_Practice.Test.TC_001@51c668e3]" started-at="2022-05-09T09:25:42 IST" name="reportInitilize" finished-at="2022-05-09T09:25:42 IST" duration-ms="402" status="PASS">
+        <test-method is-config="true" signature="reportInitilize()[pri:0, instance:com.frameWork_Practice.Test.TC_001@51c668e3]" started-at="2022-05-23T21:29:52 IST" name="reportInitilize" finished-at="2022-05-23T21:29:52 IST" duration-ms="381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportInitilize -->
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.frameWork_Practice.Test.TC_001@51c668e3]" started-at="2022-05-09T09:25:42 IST" name="initializeDriver" description="Initializing driver" finished-at="2022-05-09T09:25:48 IST" duration-ms="5532" status="PASS">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.frameWork_Practice.Test.TC_001@51c668e3]" started-at="2022-05-23T21:29:52 IST" name="initializeDriver" description="Initializing driver" finished-at="2022-05-23T21:29:58 IST" duration-ms="5471" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="initializeInputData(java.lang.String)[pri:0, instance:com.frameWork_Practice.Test.TC_001@51c668e3]" started-at="2022-05-09T09:25:48 IST" name="initializeInputData" finished-at="2022-05-09T09:25:49 IST" duration-ms="1432" status="PASS">
+        <test-method is-config="true" signature="initializeInputData(java.lang.String)[pri:0, instance:com.frameWork_Practice.Test.TC_001@51c668e3]" started-at="2022-05-23T21:29:58 IST" name="initializeInputData" finished-at="2022-05-23T21:29:59 IST" duration-ms="1339" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeInputData -->
-        <test-method signature="navigation(java.lang.String)[pri:1, instance:com.frameWork_Practice.Test.TC_001@51c668e3]" started-at="2022-05-09T09:25:49 IST" name="navigation" finished-at="2022-05-09T09:25:53 IST" duration-ms="3208" status="PASS">
+        <test-method signature="navigation(java.lang.String)[pri:1, instance:com.frameWork_Practice.Test.TC_001@51c668e3]" started-at="2022-05-23T21:29:59 IST" name="navigation" finished-at="2022-05-23T21:30:02 IST" duration-ms="2504" status="PASS">
           <params>
             <param index="0">
               <value>

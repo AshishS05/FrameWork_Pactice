@@ -45,5 +45,27 @@ public class BrowserFactory {
 return driver;
 	}
 	
-
+	public WebDriver invokeChromeProfile(String eid)
+	{
+		WebDriverManager.chromedriver().setup();
+		ChromeOptions options = new ChromeOptions();
+		ChromeDriver driver1 = new ChromeDriver(options);
+		options.addArguments("--start-maximized");
+		options.addArguments("disable-infobar");
+		options.addArguments("--disable-notifications");
+		options.addArguments("--disable-web-security");
+		options.addArguments("--no-proxy-server");
+		options.addArguments("--user-data-dir=C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 2");
+		options.addArguments("profile-directory=default");
+		Map<String,Object> prefs = new HashMap<String , Object> ();
+		prefs.put("credentials_enable_service", false);
+		prefs.put("profile.password_manager_enable",false);
+		prefs.put("Download.defalt_ddirectory", System.getProperty("user.dir") +File.separator + "downnloaded File");
+		options.setExperimentalOption("prefs", prefs);
+	
+return driver1;
 }
+	}
+	
+
+
