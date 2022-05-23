@@ -1,5 +1,6 @@
 package com.frameWork_Practice.uility;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -34,7 +35,8 @@ public class BrowserFactory {
 			Map<String,Object> prefs = new HashMap<String , Object> ();
 			prefs.put("credentials_enable_service", false);
 			prefs.put("profile.password_manager_enable",false);
-			
+			prefs.put("Download.defalt_ddirectory", System.getProperty("user.dir") +File.separator + "downnloaded File");
+			options.setExperimentalOption("prefs", prefs);
 		}
 		else if (browser.equalsIgnoreCase("IE"))
 		{
