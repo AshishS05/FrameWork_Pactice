@@ -1,5 +1,8 @@
 package com.frameWork_Practice.uility;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -23,6 +26,15 @@ public class BrowserFactory {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			driver = new ChromeDriver(options);
+			options.addArguments("--start-maximized");
+			options.addArguments("disable-infobar");
+			options.addArguments("--disable-notifications");
+			options.addArguments("--disable-web-security");
+			options.addArguments("--no-proxy-server");
+			Map<String,Object> prefs = new HashMap<String , Object> ();
+			prefs.put("credentials_enable_service", false);
+			prefs.put("profile.password_manager_enable",false);
+			
 		}
 		else if (browser.equalsIgnoreCase("IE"))
 		{
